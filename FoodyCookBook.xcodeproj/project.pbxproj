@@ -86,6 +86,7 @@
 		67670B2CB5244B25AF699F9F /* Pods-FoodyCookBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodyCookBook.debug.xcconfig"; path = "Target Support Files/Pods-FoodyCookBook/Pods-FoodyCookBook.debug.xcconfig"; sourceTree = "<group>"; };
 		AC376B558FA5E6652559AD62 /* Pods_FoodyCookBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodyCookBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B600F2E1FCA7DEE2C8148015 /* Pods-FoodyCookBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodyCookBook.release.xcconfig"; path = "Target Support Files/Pods-FoodyCookBook/Pods-FoodyCookBook.release.xcconfig"; sourceTree = "<group>"; };
+		E647CB3C26DF663000C9B0D3 /* FoodyCookBook-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FoodyCookBook-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		E6E9B56A266FBA4200DA0E18 /* FoodyCookBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodyCookBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E9B57B266FBA4500DA0E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6E9B580266FBA4600DA0E18 /* FoodyCookBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodyCookBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,7 +146,6 @@
 		E6E9B60D266FBBED00DA0E18 /* FoodListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListVC.swift; sourceTree = "<group>"; };
 		E6E9B60F266FBBED00DA0E18 /* FoodListModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListModal.swift; sourceTree = "<group>"; };
 		E6E9B611266FBBED00DA0E18 /* FoodDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDetailVC.swift; sourceTree = "<group>"; };
-		E6E9B617266FBC5700DA0E18 /* FoodyCookBook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodyCookBook-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		E6E9B619266FC2D800DA0E18 /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
 		E6E9B61D266FC3FE00DA0E18 /* FavouriteRecipesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRecipesVC.swift; sourceTree = "<group>"; };
 		E6E9B61F266FC41400DA0E18 /* FavouriteRecipesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRecipesCVC.swift; sourceTree = "<group>"; };
@@ -451,7 +451,7 @@
 		E6E9B616266FBC3A00DA0E18 /* Header File */ = {
 			isa = PBXGroup;
 			children = (
-				E6E9B617266FBC5700DA0E18 /* FoodyCookBook-Bridging-Header.h */,
+				E647CB3C26DF663000C9B0D3 /* FoodyCookBook-Bridging-Header.h */,
 			);
 			path = "Header File";
 			sourceTree = "<group>";
